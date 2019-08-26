@@ -1,0 +1,19 @@
+<html>
+	<head>
+		 <meta charset="utf-8">
+		 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		 <meta name="apple-mobile-web-app-capable" content="yes"/>
+		 <title>Custom Numeric Keypad</title>
+		 <script src="easy-numpad.min.js"></script>
+		 <link rel="stylesheet" type="text/css" href="easy-numpad.min.css">
+	 </head>
+	<body style="padding: 10px;">
+		<div class="row" style="margin: 0 15px;">
+			<label style="font-weight: 500;color: #31373d;">Amount</label>
+			<div class="input-group">
+				<span class="append">$</span>
+				<input id="amount" type="number" value="" readonly="true" onclick="show_easy_numpad(this);" maxlength="8">
+			</div>
+		</div>
+	</body>
+</html>
