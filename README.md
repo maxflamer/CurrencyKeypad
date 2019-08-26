@@ -3,6 +3,8 @@
 A custom numeric keypad for entering amount up to two decimal places.  
 <br />
 
+![Image](Keypad.jpg)
+
 ## Getting Started
 <br />
 
