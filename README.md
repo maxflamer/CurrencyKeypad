@@ -1,6 +1,6 @@
-# Custom Numeric Keypad
+# Currency Keypad
 
-A custom numeric keypad for entering amount up to two decimal places.  
+A custom currency keypad for entering a value up to two decimal places.  
 <br />
 
 ![Image](Images/Keypad.JPG)
@@ -21,15 +21,16 @@ A custom numeric keypad for entering amount up to two decimal places.
 ```
 <br />
 
-3. Use an `<input>` element of type = `number` and provide a `maxlength` of your choice.
+3. Use the following `<input>` element of type = `number` and provide a `maxlength` of your choice.
 ```
 <input id="amount" type="number" value="" readonly="true" onclick="show_easy_numpad(this);" maxlength="8">
 ```
+
 **_Note_:** The maximum number of digits allowed on your keypad would be **maxlength** whole number digits + **2 decimal places** `OR` **maxlength + 1** whole number digits.
 <br />
 
 ## Features
-- Only positive numbers are allowed (as amount cannot be negative). Hence, the `±` key is disabled.
+- Only positive numbers are allowed (as currency amount cannot be negative). Hence, the `±` key is disabled.
 - Maximum number of digits allowed can be customised using the `maxlength` property.
 - Decimal values up to only two places are allowed.
 <br />
